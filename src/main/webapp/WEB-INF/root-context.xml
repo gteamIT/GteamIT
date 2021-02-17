@@ -19,24 +19,24 @@
     <context:property-placeholder
             location="/WEB-INF/jdbc.properties" />
 
-<!--    &lt;!&ndash; dbcp datasource &ndash;&gt;-->
-<!--    <bean id="dbcpDataSource"-->
-<!--          class="org.apache.commons.dbcp2.BasicDataSource"-->
-<!--          p:driverClassName="${DRV}"-->
-<!--          p:url="${URL}"-->
-<!--          p:username="${USR}" p:password="playground2020" />-->
+    <!-- dbcp datasource -->
+    <bean id="dbcpDataSource"
+          class="org.apache.commons.dbcp2.BasicDataSource"
+          p:driverClassName="${DRV}"
+          p:url="${URL}"
+          p:username="${USR}" p:password="playground2020" />
 
-<!--    &lt;!&ndash; mybtis : sqlSession &ndash;&gt;-->
-<!--    &lt;!&ndash; myBatis3 설정 #1 &ndash;&gt;-->
-<!--    <bean id="sqlSessionFactory"-->
-<!--          class="org.mybatis.spring.SqlSessionFactoryBean"-->
-<!--          p:dataSource-ref="dbcpDataSource"-->
-<!--          p:mapperLocations="classpath*:mybatis3/*Mapper.xml" />-->
+    <!-- mybtis : sqlSession -->
+    <!-- myBatis3 설정 #1 -->
+    <bean id="sqlSessionFactory"
+          class="org.mybatis.spring.SqlSessionFactoryBean"
+          p:dataSource-ref="dbcpDataSource"
+          p:mapperLocations="classpath*:mybatis3/*Mapper.xml" />
 
-<!--    &lt;!&ndash; myBatis3 설정 #2 &ndash;&gt;-->
-<!--    <bean id="sqlSession"-->
-<!--          class="org.mybatis.spring.SqlSessionTemplate">-->
-<!--        <constructor-arg ref="sqlSessionFactory" index="0" />-->
-<!--    </bean>-->
+    <!-- myBatis3 설정 #2 -->
+    <bean id="sqlSession"
+          class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg ref="sqlSessionFactory" index="0" />
+    </bean>
 
 </beans>
