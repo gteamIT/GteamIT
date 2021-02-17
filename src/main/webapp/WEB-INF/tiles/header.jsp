@@ -26,7 +26,7 @@
 <%-- 네비게이션 바 --%>
 <nav class="nav navbar-expand navbar-dark bg-dark">
     <ul class="nav navbar-nav nav-fill w-100">
-        <li class="nav-item active"><a class="nav-link" href="/intr">쉐어닷컴</a></li>
+        <li class="nav-item active"><a class="nav-link" href="/index">쉐어닷컴</a></li>
 
         <%--        <!-- 로그인 여부에 따라 메뉴 표시를 다르게 함 -->--%>
         <%--        <c:if test="${empty UID}">--%>
@@ -37,9 +37,9 @@
         <%--            <li class="nav-item"><a class="nav-link disabled">회원가입</a></li>--%>
         <%--        </c:if>--%>
 
-        <li class="nav-item"><a class="nav-link" href="/introduce">쉐어닷컴</a></li>
-        <li class="nav-item"><a class="nav-link" href="/centers">회의실</a></li>
-        <li class="nav-item"><a class="nav-link" href="/videos">화상 회의실</a></li>
-        <li class="nav-item"><a class="nav-link" href="/notices"><고객센터></고객센터></a></li>
+        <li class="nav-item"><a class="nav-link" href="/menu1/home">메뉴1</a></li>
+        <li class="nav-item"><a class="nav-link" href="/menu2/home">메뉴2</a></li>
+        <li class="nav-item"><a class="nav-link" href="/menu3/home">메뉴3</a></li>
+        <li class="nav-item"><a class="nav-link" href="/menu4/home">메뉴4</a></li>
     </ul>
 </nav>

@@ -36,11 +36,11 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
-<script src="/js/join.js"></script>
 <script src="/js/login.js"></script>
-<script src="/js/board.js"></script>
-<script src="/js/pds.js"></script>
-<script src="/js/gallery.js"></script>
+<script src="/js/menu1.js"></script>
+<script src="/js/menu2.js"></script>
+<script src="/js/menu3.js"></script>
+<script src="/js/menu4.js"></script>
 
 </body>
 </html>
