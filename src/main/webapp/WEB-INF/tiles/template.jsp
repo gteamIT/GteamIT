@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/semiproject.css">
 
-    <title>세미프로젝트v1</title>
+    <title>Share</title>
     <style>
         .fatdiv { padding: 15px; }
         .margin30 { margin: 30px 0; }
