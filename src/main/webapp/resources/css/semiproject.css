@@ -4,6 +4,8 @@
 .margin300 {margin: 300px 0 30px 0px}
 .margin1050 { margin: 0px 30px 30px 50px }
 
+.bulletNone {list-style-type: none}
+
 .breadcrumb-item+.breadcrumb-item::before {
     content: url(/resources/img/GLYPHICONS/glyphicons_223_thin_right_arrow.png);
     margin-top: 5px;
@@ -33,5 +35,6 @@
     background-position: 0, 0;
     background-size: contain;
 }
+
 
 
