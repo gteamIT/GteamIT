@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class Menu3Controller {
 
-    @GetMapping("/menu3/home")
-    public String agree() { return "menu3/home.tiles"; }
+    @GetMapping("/review/list")
+    public String agree() { return "review/list.tiles"; }
 }
 

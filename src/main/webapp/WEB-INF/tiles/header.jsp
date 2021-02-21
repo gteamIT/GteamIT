@@ -39,7 +39,7 @@
 
         <li class="nav-item"><a class="nav-link" href="/menu1/home">소개</a></li>
         <li class="nav-item"><a class="nav-link" href="/menu2/home">장소쉐어</a></li>
-        <li class="nav-item"><a class="nav-link" href="/menu3/home">후기</a></li>
+        <li class="nav-item"><a class="nav-link" href="/review/list">후기</a></li>
         <li class="nav-item"><a class="nav-link" href="/menu4/home">고객센터</a></li>
     </ul>
 </nav>
